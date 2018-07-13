@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="base">
+      <UniqueIdentifier>{ebbdadca-af92-4a33-bb29-19209cc58e85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="devices">
+      <UniqueIdentifier>{a789b1b1-3a8d-413c-869d-7f4187d73ba2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine">
+      <UniqueIdentifier>{d938bc02-18c1-4a56-9617-71807b697657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sctp">
+      <UniqueIdentifier>{d5d25485-c155-46e2-9783-9e4cb8cd50a4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\webrtc\media\base\adaptedvideotracksource.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\media\base\codec.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\media\base\mediaconstants.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\media\base\mediaengine.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\media\base\rtpdataengine.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\media\base\rtputils.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\media\base\streamparams.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\media\base\turnutils.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\media\base\videoadapter.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\media\base\videobroadcaster.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\media\base\videocapturer.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\media\base\videocommon.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\media\base\videosourcebase.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\media\engine\internaldecoderfactory.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\media\engine\internalencoderfactory.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\media\engine\payload_type_mapper.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\media\engine\videodecodersoftwarefallbackwrapper.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\media\engine\videoencodersoftwarefallbackwrapper.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\media\engine\webrtcmediaengine.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\media\engine\webrtcvideocapturer.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\media\engine\webrtcvideocapturerfactory.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\media\engine\webrtcvideoencoderfactory.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\media\engine\webrtcvideoengine2.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\media\engine\webrtcvoiceengine.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\media\engine\simulcast.cc">
+      <Filter>engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\webrtc\media\base\adaptedvideotracksource.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\media\base\audiosource.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\media\base\codec.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\media\base\cryptoparams.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\media\base\device.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\media\base\fakemediaengine.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\media\base\fakenetworkinterface.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\media\base\fakertp.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\media\base\fakevideocapturer.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\media\base\fakevideorenderer.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\media\base\mediachannel.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\media\base\mediaconstants.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\media\base\mediaengine.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\media\base\rtpdataengine.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\media\base\rtputils.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\media\base\streamparams.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\media\base\turnutils.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\media\base\videoadapter.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\media\base\videobroadcaster.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\media\base\videocapturer.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\media\base\videocapturerfactory.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\media\base\videocommon.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\media\base\videoframe.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\media\base\videosinkinterface.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\media\base\videosourcebase.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\media\base\videosourceinterface.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\media\engine\constants.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\media\engine\internaldecoderfactory.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\media\engine\internalencoderfactory.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\media\engine\nullwebrtcvideoengine.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\media\engine\payload_type_mapper.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\media\engine\videodecodersoftwarefallbackwrapper.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\media\engine\videoencodersoftwarefallbackwrapper.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\media\engine\webrtccommon.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\media\engine\webrtcmediaengine.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\media\engine\webrtcvideocapturer.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\media\engine\webrtcvideocapturerfactory.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\media\engine\webrtcvideodecoderfactory.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\media\engine\webrtcvideoencoderfactory.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\media\engine\webrtcvideoengine2.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\media\engine\webrtcvideoframe.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\media\engine\webrtcvoe.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\media\engine\webrtcvoiceengine.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

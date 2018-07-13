@@ -1,0 +1,1 @@
+x86 was renamed to "Win32" so the $(PlatformName) property in VS would map correctly.

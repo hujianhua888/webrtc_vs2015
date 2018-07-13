@@ -1,0 +1,2 @@
+#TargetFrameworkVersion=v4.0:PlatformToolSet=v140:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=8.1
+Debug|x64|E:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\vs140\|

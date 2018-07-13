@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="base">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="client">
+      <UniqueIdentifier>{fae0a076-2fac-45ce-a0f7-3b356b4ad4c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="quic">
+      <UniqueIdentifier>{66c18250-a8df-4f03-9ad9-ce6047684f20}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\webrtc\p2p\base\asyncstuntcpsocket.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\p2p\base\basicpacketsocketfactory.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\p2p\base\dtlstransportchannel.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\p2p\base\jseptransport.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\p2p\base\p2pconstants.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\p2p\base\p2ptransportchannel.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\p2p\base\port.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\p2p\base\portallocator.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\p2p\base\relayport.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\p2p\base\relayserver.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\p2p\base\session.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\p2p\base\sessiondescription.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\p2p\base\stun.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\p2p\base\stunport.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\p2p\base\stunrequest.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\p2p\base\stunserver.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\p2p\base\tcpport.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\p2p\base\transportcontroller.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\p2p\base\transportdescription.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\p2p\base\transportdescriptionfactory.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\p2p\base\turnport.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\p2p\base\turnserver.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\p2p\base\udptransport.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\p2p\client\basicportallocator.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\p2p\client\socketmonitor.cc">
+      <Filter>client</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\webrtc\p2p\base\asyncstuntcpsocket.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\p2p\base\basicpacketsocketfactory.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\p2p\base\candidate.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\p2p\base\candidatepairinterface.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\p2p\base\common.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\p2p\base\dtlstransportchannel.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\p2p\base\dtlstransportinternal.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\p2p\base\icetransportinternal.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\p2p\base\jseptransport.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\p2p\base\p2pconstants.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\p2p\base\p2ptransportchannel.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\p2p\base\packetsocketfactory.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\p2p\base\packettransportinterface.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\p2p\base\packettransportinternal.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\p2p\base\port.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\p2p\base\portallocator.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\p2p\base\portinterface.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\p2p\base\relayport.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\p2p\base\relayserver.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\p2p\base\session.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\p2p\base\sessiondescription.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\p2p\base\stun.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\p2p\base\stunport.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\p2p\base\stunrequest.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\p2p\base\stunserver.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\p2p\base\tcpport.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\p2p\base\transport.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\p2p\base\transportchannelimpl.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\p2p\base\transportcontroller.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\p2p\base\transportdescription.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\p2p\base\transportdescriptionfactory.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\p2p\base\transportinfo.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\p2p\base\turnport.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\p2p\base\turnserver.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\p2p\base\udpport.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\p2p\base\udptransport.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\p2p\client\basicportallocator.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\p2p\client\socketmonitor.h">
+      <Filter>client</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

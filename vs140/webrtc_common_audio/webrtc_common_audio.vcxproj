@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\webrtc\common_audio\audio_converter.cc" />
+    <ClCompile Include="..\..\webrtc\common_audio\audio_ring_buffer.cc" />
+    <ClCompile Include="..\..\webrtc\common_audio\audio_util.cc" />
+    <ClCompile Include="..\..\webrtc\common_audio\blocker.cc" />
+    <ClCompile Include="..\..\webrtc\common_audio\channel_buffer.cc" />
+    <ClCompile Include="..\..\webrtc\common_audio\fft4g.c" />
+    <ClCompile Include="..\..\webrtc\common_audio\fir_filter.cc" />
+    <ClCompile Include="..\..\webrtc\common_audio\fir_filter_sse.cc" />
+    <ClCompile Include="..\..\webrtc\common_audio\lapped_transform.cc" />
+    <ClCompile Include="..\..\webrtc\common_audio\real_fourier.cc" />
+    <ClCompile Include="..\..\webrtc\common_audio\real_fourier_ooura.cc" />
+    <ClCompile Include="..\..\webrtc\common_audio\resampler\push_resampler.cc" />
+    <ClCompile Include="..\..\webrtc\common_audio\resampler\push_sinc_resampler.cc" />
+    <ClCompile Include="..\..\webrtc\common_audio\resampler\resampler.cc" />
+    <ClCompile Include="..\..\webrtc\common_audio\resampler\sinc_resampler.cc" />
+    <ClCompile Include="..\..\webrtc\common_audio\resampler\sinc_resampler_sse.cc" />
+    <ClCompile Include="..\..\webrtc\common_audio\ring_buffer.c" />
+    <ClCompile Include="..\..\webrtc\common_audio\signal_processing\auto_correlation.c" />
+    <ClCompile Include="..\..\webrtc\common_audio\signal_processing\auto_corr_to_refl_coef.c" />
+    <ClCompile Include="..\..\webrtc\common_audio\signal_processing\complex_bit_reverse.c" />
+    <ClCompile Include="..\..\webrtc\common_audio\signal_processing\complex_fft.c" />
+    <ClCompile Include="..\..\webrtc\common_audio\signal_processing\copy_set_operations.c" />
+    <ClCompile Include="..\..\webrtc\common_audio\signal_processing\cross_correlation.c" />
+    <ClCompile Include="..\..\webrtc\common_audio\signal_processing\division_operations.c" />
+    <ClCompile Include="..\..\webrtc\common_audio\signal_processing\dot_product_with_scale.c" />
+    <ClCompile Include="..\..\webrtc\common_audio\signal_processing\downsample_fast.c" />
+    <ClCompile Include="..\..\webrtc\common_audio\signal_processing\energy.c" />
+    <ClCompile Include="..\..\webrtc\common_audio\signal_processing\filter_ar.c" />
+    <ClCompile Include="..\..\webrtc\common_audio\signal_processing\filter_ar_fast_q12.c" />
+    <ClCompile Include="..\..\webrtc\common_audio\signal_processing\filter_ma_fast_q12.c" />
+    <ClCompile Include="..\..\webrtc\common_audio\signal_processing\get_hanning_window.c" />
+    <ClCompile Include="..\..\webrtc\common_audio\signal_processing\get_scaling_square.c" />
+    <ClCompile Include="..\..\webrtc\common_audio\signal_processing\ilbc_specific_functions.c" />
+    <ClCompile Include="..\..\webrtc\common_audio\signal_processing\levinson_durbin.c" />
+    <ClCompile Include="..\..\webrtc\common_audio\signal_processing\lpc_to_refl_coef.c" />
+    <ClCompile Include="..\..\webrtc\common_audio\signal_processing\min_max_operations.c" />
+    <ClCompile Include="..\..\webrtc\common_audio\signal_processing\randomization_functions.c" />
+    <ClCompile Include="..\..\webrtc\common_audio\signal_processing\real_fft.c" />
+    <ClCompile Include="..\..\webrtc\common_audio\signal_processing\refl_coef_to_lpc.c" />
+    <ClCompile Include="..\..\webrtc\common_audio\signal_processing\resample.c" />
+    <ClCompile Include="..\..\webrtc\common_audio\signal_processing\resample_48khz.c" />
+    <ClCompile Include="..\..\webrtc\common_audio\signal_processing\resample_by_2.c" />
+    <ClCompile Include="..\..\webrtc\common_audio\signal_processing\resample_by_2_internal.c" />
+    <ClCompile Include="..\..\webrtc\common_audio\signal_processing\resample_fractional.c" />
+    <ClCompile Include="..\..\webrtc\common_audio\signal_processing\splitting_filter.c" />
+    <ClCompile Include="..\..\webrtc\common_audio\signal_processing\spl_init.c" />
+    <ClCompile Include="..\..\webrtc\common_audio\signal_processing\spl_inl.c" />
+    <ClCompile Include="..\..\webrtc\common_audio\signal_processing\spl_sqrt.c" />
+    <ClCompile Include="..\..\webrtc\common_audio\signal_processing\spl_sqrt_floor.c" />
+    <ClCompile Include="..\..\webrtc\common_audio\signal_processing\sqrt_of_one_minus_x_squared.c" />
+    <ClCompile Include="..\..\webrtc\common_audio\signal_processing\vector_scaling_operations.c" />
+    <ClCompile Include="..\..\webrtc\common_audio\smoothing_filter.cc" />
+    <ClCompile Include="..\..\webrtc\common_audio\sparse_fir_filter.cc" />
+    <ClCompile Include="..\..\webrtc\common_audio\vad\vad.cc" />
+    <ClCompile Include="..\..\webrtc\common_audio\vad\vad_core.c" />
+    <ClCompile Include="..\..\webrtc\common_audio\vad\vad_filterbank.c" />
+    <ClCompile Include="..\..\webrtc\common_audio\vad\vad_gmm.c" />
+    <ClCompile Include="..\..\webrtc\common_audio\vad\vad_sp.c" />
+    <ClCompile Include="..\..\webrtc\common_audio\vad\webrtc_vad.c" />
+    <ClCompile Include="..\..\webrtc\common_audio\wav_file.cc" />
+    <ClCompile Include="..\..\webrtc\common_audio\wav_header.cc" />
+    <ClCompile Include="..\..\webrtc\common_audio\window_generator.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\webrtc\common_audio\audio_converter.h" />
+    <ClInclude Include="..\..\webrtc\common_audio\audio_ring_buffer.h" />
+    <ClInclude Include="..\..\webrtc\common_audio\blocker.h" />
+    <ClInclude Include="..\..\webrtc\common_audio\channel_buffer.h" />
+    <ClInclude Include="..\..\webrtc\common_audio\fft4g.h" />
+    <ClInclude Include="..\..\webrtc\common_audio\fir_filter.h" />
+    <ClInclude Include="..\..\webrtc\common_audio\lapped_transform.h" />
+    <ClInclude Include="..\..\webrtc\common_audio\real_fourier.h" />
+    <ClInclude Include="..\..\webrtc\common_audio\resampler\push_sinc_resampler.h" />
+    <ClInclude Include="..\..\webrtc\common_audio\resampler\sinc_resampler.h" />
+    <ClInclude Include="..\..\webrtc\common_audio\ring_buffer.h" />
+    <ClInclude Include="..\..\webrtc\common_audio\signal_processing\complex_fft_tables.h" />
+    <ClInclude Include="..\..\webrtc\common_audio\signal_processing\resample_by_2_internal.h" />
+    <ClInclude Include="..\..\webrtc\common_audio\smoothing_filter.h" />
+    <ClInclude Include="..\..\webrtc\common_audio\sparse_fir_filter.h" />
+    <ClInclude Include="..\..\webrtc\common_audio\vad\vad_core.h" />
+    <ClInclude Include="..\..\webrtc\common_audio\vad\vad_filterbank.h" />
+    <ClInclude Include="..\..\webrtc\common_audio\vad\vad_gmm.h" />
+    <ClInclude Include="..\..\webrtc\common_audio\vad\vad_sp.h" />
+    <ClInclude Include="..\..\webrtc\common_audio\wav_file.h" />
+    <ClInclude Include="..\..\webrtc\common_audio\wav_header.h" />
+    <ClInclude Include="..\..\webrtc\common_audio\window_generator.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{53359DC6-253A-4CF5-9F26-C35937F9A78C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>webrtc_common_audio</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\webrtc.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\webrtc.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\webrtc.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\webrtc.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

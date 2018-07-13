@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4558FBA6-9717-4B96-8CE4-F77A34F804AF}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>webrtc_base</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\webrtc.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\webrtc.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\webrtc.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\webrtc.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\webrtc\base\asyncinvoker.cc" />
+    <ClCompile Include="..\..\webrtc\base\asyncpacketsocket.cc" />
+    <ClCompile Include="..\..\webrtc\base\asyncresolverinterface.cc" />
+    <ClCompile Include="..\..\webrtc\base\asyncsocket.cc" />
+    <ClCompile Include="..\..\webrtc\base\asynctcpsocket.cc" />
+    <ClCompile Include="..\..\webrtc\base\asyncudpsocket.cc" />
+    <ClCompile Include="..\..\webrtc\base\base64.cc" />
+    <ClCompile Include="..\..\webrtc\base\bitbuffer.cc" />
+    <ClCompile Include="..\..\webrtc\base\bufferqueue.cc" />
+    <ClCompile Include="..\..\webrtc\base\bytebuffer.cc" />
+    <ClCompile Include="..\..\webrtc\base\checks.cc" />
+    <ClCompile Include="..\..\webrtc\base\common.cc" />
+    <ClCompile Include="..\..\webrtc\base\copyonwritebuffer.cc" />
+    <ClCompile Include="..\..\webrtc\base\crc32.cc" />
+    <ClCompile Include="..\..\webrtc\base\criticalsection.cc" />
+    <ClCompile Include="..\..\webrtc\base\cryptstring.cc" />
+    <ClCompile Include="..\..\webrtc\base\event.cc" />
+    <ClCompile Include="..\..\webrtc\base\event_tracer.cc" />
+    <ClCompile Include="..\..\webrtc\base\fakeclock.cc" />
+    <ClCompile Include="..\..\webrtc\base\file.cc" />
+    <ClCompile Include="..\..\webrtc\base\filerotatingstream.cc" />
+    <ClCompile Include="..\..\webrtc\base\fileutils.cc" />
+    <ClCompile Include="..\..\webrtc\base\file_win.cc" />
+    <ClCompile Include="..\..\webrtc\base\firewallsocketserver.cc" />
+    <ClCompile Include="..\..\webrtc\base\flags.cc" />
+    <ClCompile Include="..\..\webrtc\base\helpers.cc" />
+    <ClCompile Include="..\..\webrtc\base\httpbase.cc" />
+    <ClCompile Include="..\..\webrtc\base\httpcommon.cc" />
+    <ClCompile Include="..\..\webrtc\base\httpserver.cc" />
+    <ClCompile Include="..\..\webrtc\base\ipaddress.cc" />
+    <ClCompile Include="..\..\webrtc\base\json.cc" />
+    <ClCompile Include="..\..\webrtc\base\location.cc" />
+    <ClCompile Include="..\..\webrtc\base\logging.cc" />
+    <ClCompile Include="..\..\webrtc\base\logsinks.cc" />
+    <ClCompile Include="..\..\webrtc\base\md5.cc" />
+    <ClCompile Include="..\..\webrtc\base\md5digest.cc" />
+    <ClCompile Include="..\..\webrtc\base\messagedigest.cc" />
+    <ClCompile Include="..\..\webrtc\base\messagehandler.cc" />
+    <ClCompile Include="..\..\webrtc\base\messagequeue.cc" />
+    <ClCompile Include="..\..\webrtc\base\natserver.cc" />
+    <ClCompile Include="..\..\webrtc\base\natsocketfactory.cc" />
+    <ClCompile Include="..\..\webrtc\base\nattypes.cc" />
+    <ClCompile Include="..\..\webrtc\base\nethelpers.cc" />
+    <ClCompile Include="..\..\webrtc\base\network.cc" />
+    <ClCompile Include="..\..\webrtc\base\networkmonitor.cc" />
+    <ClCompile Include="..\..\webrtc\base\nullsocketserver.cc" />
+    <ClCompile Include="..\..\webrtc\base\numerics\exp_filter.cc" />
+    <ClCompile Include="..\..\webrtc\base\openssladapter.cc" />
+    <ClCompile Include="..\..\webrtc\base\openssldigest.cc" />
+    <ClCompile Include="..\..\webrtc\base\opensslidentity.cc" />
+    <ClCompile Include="..\..\webrtc\base\opensslstreamadapter.cc" />
+    <ClCompile Include="..\..\webrtc\base\optional.cc" />
+    <ClCompile Include="..\..\webrtc\base\optionsfile.cc" />
+    <ClCompile Include="..\..\webrtc\base\pathutils.cc" />
+    <ClCompile Include="..\..\webrtc\base\physicalsocketserver.cc" />
+    <ClCompile Include="..\..\webrtc\base\platform_file.cc" />
+    <ClCompile Include="..\..\webrtc\base\platform_thread.cc" />
+    <ClCompile Include="..\..\webrtc\base\proxyinfo.cc" />
+    <ClCompile Include="..\..\webrtc\base\proxyserver.cc" />
+    <ClCompile Include="..\..\webrtc\base\race_checker.cc" />
+    <ClCompile Include="..\..\webrtc\base\random.cc" />
+    <ClCompile Include="..\..\webrtc\base\ratelimiter.cc" />
+    <ClCompile Include="..\..\webrtc\base\ratetracker.cc" />
+    <ClCompile Include="..\..\webrtc\base\rate_limiter.cc" />
+    <ClCompile Include="..\..\webrtc\base\rate_statistics.cc" />
+    <ClCompile Include="..\..\webrtc\base\rtccertificate.cc" />
+    <ClCompile Include="..\..\webrtc\base\rtccertificategenerator.cc" />
+    <ClCompile Include="..\..\webrtc\base\sequenced_task_checker_impl.cc" />
+    <ClCompile Include="..\..\webrtc\base\sha1.cc" />
+    <ClCompile Include="..\..\webrtc\base\sha1digest.cc" />
+    <ClCompile Include="..\..\webrtc\base\sharedexclusivelock.cc" />
+    <ClCompile Include="..\..\webrtc\base\signalthread.cc" />
+    <ClCompile Include="..\..\webrtc\base\sigslot.cc" />
+    <ClCompile Include="..\..\webrtc\base\socketadapters.cc" />
+    <ClCompile Include="..\..\webrtc\base\socketaddress.cc" />
+    <ClCompile Include="..\..\webrtc\base\socketaddresspair.cc" />
+    <ClCompile Include="..\..\webrtc\base\socketstream.cc" />
+    <ClCompile Include="..\..\webrtc\base\ssladapter.cc" />
+    <ClCompile Include="..\..\webrtc\base\sslfingerprint.cc" />
+    <ClCompile Include="..\..\webrtc\base\sslidentity.cc" />
+    <ClCompile Include="..\..\webrtc\base\sslstreamadapter.cc" />
+    <ClCompile Include="..\..\webrtc\base\stream.cc" />
+    <ClCompile Include="..\..\webrtc\base\stringencode.cc" />
+    <ClCompile Include="..\..\webrtc\base\stringutils.cc" />
+    <ClCompile Include="..\..\webrtc\base\task.cc" />
+    <ClCompile Include="..\..\webrtc\base\taskparent.cc" />
+    <ClCompile Include="..\..\webrtc\base\taskrunner.cc" />
+    <ClCompile Include="..\..\webrtc\base\task_queue_win.cc" />
+    <ClCompile Include="..\..\webrtc\base\testclient.cc" />
+    <ClCompile Include="..\..\webrtc\base\thread.cc" />
+    <ClCompile Include="..\..\webrtc\base\thread_checker_impl.cc" />
+    <ClCompile Include="..\..\webrtc\base\timestampaligner.cc" />
+    <ClCompile Include="..\..\webrtc\base\timeutils.cc" />
+    <ClCompile Include="..\..\webrtc\base\transformadapter.cc" />
+    <ClCompile Include="..\..\webrtc\base\virtualsocketserver.cc" />
+    <ClCompile Include="..\..\webrtc\base\weak_ptr.cc" />
+    <ClCompile Include="..\..\webrtc\base\win32.cc" />
+    <ClCompile Include="..\..\webrtc\base\win32filesystem.cc" />
+    <ClCompile Include="..\..\webrtc\base\win32securityerrors.cc" />
+    <ClCompile Include="..\..\webrtc\base\win32socketinit.cc" />
+    <ClCompile Include="..\..\webrtc\base\win32socketserver.cc" />
+    <ClCompile Include="..\..\webrtc\base\win32window.cc" />
+    <ClCompile Include="..\..\webrtc\base\winping.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\webrtc\base\numerics\exp_filter.h" />
+    <ClInclude Include="..\..\webrtc\base\numerics\percentile_filter.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="audio_conference_mixer">
+      <UniqueIdentifier>{7e899273-18ca-4dae-a6f6-92a65e5d9c9a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\webrtc\modules\audio_conference_mixer\source\audio_conference_mixer_impl.h">
+      <Filter>audio_conference_mixer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_conference_mixer\source\audio_frame_manipulator.h">
+      <Filter>audio_conference_mixer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_conference_mixer\source\memory_pool.h">
+      <Filter>audio_conference_mixer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_conference_mixer\source\memory_pool_win.h">
+      <Filter>audio_conference_mixer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_conference_mixer\source\time_scheduler.h">
+      <Filter>audio_conference_mixer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\webrtc\modules\audio_conference_mixer\source\audio_conference_mixer_impl.cc">
+      <Filter>audio_conference_mixer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_conference_mixer\source\audio_frame_manipulator.cc">
+      <Filter>audio_conference_mixer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_conference_mixer\source\time_scheduler.cc">
+      <Filter>audio_conference_mixer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\webrtc\modules\video_coding\codecs\vp9\screenshare_layers.cc" />
+    <ClCompile Include="..\..\webrtc\modules\video_coding\codecs\vp9\vp9_frame_buffer_pool.cc" />
+    <ClCompile Include="..\..\webrtc\modules\video_coding\codecs\vp9\vp9_impl.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\webrtc\modules\video_coding\codecs\vp9\screenshare_layers.h" />
+    <ClInclude Include="..\..\webrtc\modules\video_coding\codecs\vp9\vp9_frame_buffer_pool.h" />
+    <ClInclude Include="..\..\webrtc\modules\video_coding\codecs\vp9\vp9_impl.h" />
+    <ClInclude Include="..\..\webrtc\modules\video_coding\codecs\vp9\include\vp9.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\video_coding\codecs\vp9\include\vp9_globals.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{a7f16c9e-54bc-4aad-8a85-32d35f44805c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

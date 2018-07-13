@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\acm2\acm_codec_database.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\acm2\acm_receiver.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\acm2\acm_resampler.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\acm2\audio_coding_module.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\acm2\call_statistics.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\acm2\codec_manager.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\acm2\rent_a_codec.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\audio_network_adaptor\audio_network_adaptor.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\audio_network_adaptor\audio_network_adaptor_impl.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\audio_network_adaptor\bitrate_controller.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\audio_network_adaptor\channel_controller.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\audio_network_adaptor\controller.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\audio_network_adaptor\controller_manager.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\audio_network_adaptor\debug_dump_writer.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\audio_network_adaptor\dtx_controller.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\audio_network_adaptor\event_log_writer.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\audio_network_adaptor\fec_controller.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\audio_network_adaptor\frame_length_controller.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\codecs\audio_encoder.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\codecs\audio_format_conversion.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\codecs\builtin_audio_decoder_factory_internal.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\codecs\legacy_encoded_audio_frame.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\accelerate.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\audio_decoder_impl.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\audio_multi_vector.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\audio_vector.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\background_noise.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\buffer_level_filter.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\comfort_noise.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\cross_correlation.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\decision_logic.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\decision_logic_fax.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\decision_logic_normal.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\decoder_database.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\delay_manager.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\delay_peak_detector.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\dsp_helper.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\dtmf_buffer.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\dtmf_tone_generator.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\expand.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\merge.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\nack_tracker.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\neteq.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\neteq_impl.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\normal.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\packet.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\packet_buffer.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\post_decode_vad.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\preemptive_expand.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\random_vector.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\red_payload_splitter.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\rtcp.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\statistics_calculator.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\sync_buffer.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\tick_timer.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\timestamp_scaler.cc" />
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\time_stretch.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\acm2\acm_codec_database.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\acm2\acm_common_defs.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\acm2\acm_receiver.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\acm2\acm_resampler.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\acm2\call_statistics.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\acm2\codec_manager.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\acm2\rent_a_codec.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\audio_network_adaptor\audio_network_adaptor_impl.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\audio_network_adaptor\bitrate_controller.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\audio_network_adaptor\channel_controller.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\audio_network_adaptor\controller.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\audio_network_adaptor\controller_manager.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\audio_network_adaptor\debug_dump_writer.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\audio_network_adaptor\dtx_controller.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\audio_network_adaptor\event_log_writer.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\audio_network_adaptor\fec_controller.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\audio_network_adaptor\frame_length_controller.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\codecs\audio_decoder.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\codecs\audio_encoder.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\codecs\audio_format_conversion.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\codecs\builtin_audio_decoder_factory.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\codecs\builtin_audio_decoder_factory_internal.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\codecs\legacy_encoded_audio_frame.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\include\audio_coding_module.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\include\audio_coding_module_typedefs.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\accelerate.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\audio_decoder_impl.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\audio_multi_vector.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\audio_vector.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\background_noise.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\buffer_level_filter.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\comfort_noise.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\cross_correlation.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\decision_logic.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\decision_logic_fax.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\decision_logic_normal.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\decoder_database.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\defines.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\delay_manager.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\delay_peak_detector.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\dsp_helper.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\dtmf_buffer.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\dtmf_tone_generator.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\expand.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\include\neteq.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\merge.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\nack_tracker.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\neteq_impl.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\normal.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\packet.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\packet_buffer.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\post_decode_vad.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\preemptive_expand.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\random_vector.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\red_payload_splitter.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\rtcp.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\statistics_calculator.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\sync_buffer.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\tick_timer.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\timestamp_scaler.h" />
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\time_stretch.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2F7ED366-65C8-450B-9755-71F84EC35008}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>webrtc_module_audio_coding</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\webrtc.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\webrtc.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\webrtc.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\webrtc.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

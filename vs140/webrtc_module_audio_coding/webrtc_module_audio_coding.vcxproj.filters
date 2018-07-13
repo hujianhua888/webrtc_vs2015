@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="audio_coding">
+      <UniqueIdentifier>{a8698f77-f2c3-4db0-9fc4-b966b698ec3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_coding\acm2">
+      <UniqueIdentifier>{5e9cba19-dce0-41d2-bb4a-743ca0a003a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_coding\neteq">
+      <UniqueIdentifier>{56e6890c-a2f9-44d1-9f1a-271ed3abeeec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_coding\codecs">
+      <UniqueIdentifier>{ab53a017-d387-47fe-861e-aa3f395ec085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_coding\neteq\include">
+      <UniqueIdentifier>{0b4bda2a-4229-4ff6-a26f-d94bcc07bb2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_coding\include">
+      <UniqueIdentifier>{dc8cf63e-04b3-426e-a719-3356d191a3fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_network_adaptor">
+      <UniqueIdentifier>{07f957d9-603b-4b8c-920c-fdcd29f454ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\acm2\acm_codec_database.cc">
+      <Filter>audio_coding\acm2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\acm2\acm_receiver.cc">
+      <Filter>audio_coding\acm2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\acm2\acm_resampler.cc">
+      <Filter>audio_coding\acm2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\acm2\audio_coding_module.cc">
+      <Filter>audio_coding\acm2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\acm2\call_statistics.cc">
+      <Filter>audio_coding\acm2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\acm2\codec_manager.cc">
+      <Filter>audio_coding\acm2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\acm2\rent_a_codec.cc">
+      <Filter>audio_coding\acm2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\accelerate.cc">
+      <Filter>audio_coding\neteq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\audio_decoder_impl.cc">
+      <Filter>audio_coding\neteq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\audio_multi_vector.cc">
+      <Filter>audio_coding\neteq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\audio_vector.cc">
+      <Filter>audio_coding\neteq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\background_noise.cc">
+      <Filter>audio_coding\neteq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\buffer_level_filter.cc">
+      <Filter>audio_coding\neteq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\comfort_noise.cc">
+      <Filter>audio_coding\neteq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\cross_correlation.cc">
+      <Filter>audio_coding\neteq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\decision_logic.cc">
+      <Filter>audio_coding\neteq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\decision_logic_fax.cc">
+      <Filter>audio_coding\neteq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\decision_logic_normal.cc">
+      <Filter>audio_coding\neteq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\decoder_database.cc">
+      <Filter>audio_coding\neteq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\delay_manager.cc">
+      <Filter>audio_coding\neteq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\delay_peak_detector.cc">
+      <Filter>audio_coding\neteq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\dsp_helper.cc">
+      <Filter>audio_coding\neteq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\dtmf_buffer.cc">
+      <Filter>audio_coding\neteq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\dtmf_tone_generator.cc">
+      <Filter>audio_coding\neteq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\expand.cc">
+      <Filter>audio_coding\neteq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\merge.cc">
+      <Filter>audio_coding\neteq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\nack_tracker.cc">
+      <Filter>audio_coding\neteq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\neteq.cc">
+      <Filter>audio_coding\neteq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\neteq_impl.cc">
+      <Filter>audio_coding\neteq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\normal.cc">
+      <Filter>audio_coding\neteq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\packet.cc">
+      <Filter>audio_coding\neteq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\packet_buffer.cc">
+      <Filter>audio_coding\neteq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\post_decode_vad.cc">
+      <Filter>audio_coding\neteq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\preemptive_expand.cc">
+      <Filter>audio_coding\neteq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\random_vector.cc">
+      <Filter>audio_coding\neteq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\red_payload_splitter.cc">
+      <Filter>audio_coding\neteq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\rtcp.cc">
+      <Filter>audio_coding\neteq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\statistics_calculator.cc">
+      <Filter>audio_coding\neteq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\sync_buffer.cc">
+      <Filter>audio_coding\neteq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\tick_timer.cc">
+      <Filter>audio_coding\neteq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\time_stretch.cc">
+      <Filter>audio_coding\neteq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\neteq\timestamp_scaler.cc">
+      <Filter>audio_coding\neteq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\codecs\audio_encoder.cc">
+      <Filter>audio_coding\codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\codecs\audio_format_conversion.cc">
+      <Filter>audio_coding\codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\codecs\builtin_audio_decoder_factory_internal.cc">
+      <Filter>audio_coding\codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\codecs\legacy_encoded_audio_frame.cc">
+      <Filter>audio_coding\codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\audio_network_adaptor\audio_network_adaptor.cc">
+      <Filter>audio_network_adaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\audio_network_adaptor\audio_network_adaptor_impl.cc">
+      <Filter>audio_network_adaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\audio_network_adaptor\bitrate_controller.cc">
+      <Filter>audio_network_adaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\audio_network_adaptor\channel_controller.cc">
+      <Filter>audio_network_adaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\audio_network_adaptor\controller.cc">
+      <Filter>audio_network_adaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\audio_network_adaptor\controller_manager.cc">
+      <Filter>audio_network_adaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\audio_network_adaptor\debug_dump_writer.cc">
+      <Filter>audio_network_adaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\audio_network_adaptor\dtx_controller.cc">
+      <Filter>audio_network_adaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\audio_network_adaptor\event_log_writer.cc">
+      <Filter>audio_network_adaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\audio_network_adaptor\fec_controller.cc">
+      <Filter>audio_network_adaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\audio_coding\audio_network_adaptor\frame_length_controller.cc">
+      <Filter>audio_network_adaptor</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\acm2\acm_codec_database.h">
+      <Filter>audio_coding\acm2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\acm2\acm_common_defs.h">
+      <Filter>audio_coding\acm2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\acm2\acm_receiver.h">
+      <Filter>audio_coding\acm2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\acm2\acm_resampler.h">
+      <Filter>audio_coding\acm2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\acm2\call_statistics.h">
+      <Filter>audio_coding\acm2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\acm2\codec_manager.h">
+      <Filter>audio_coding\acm2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\acm2\rent_a_codec.h">
+      <Filter>audio_coding\acm2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\include\audio_coding_module.h">
+      <Filter>audio_coding\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\include\audio_coding_module_typedefs.h">
+      <Filter>audio_coding\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\accelerate.h">
+      <Filter>audio_coding\neteq</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\audio_decoder_impl.h">
+      <Filter>audio_coding\neteq</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\audio_multi_vector.h">
+      <Filter>audio_coding\neteq</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\audio_vector.h">
+      <Filter>audio_coding\neteq</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\background_noise.h">
+      <Filter>audio_coding\neteq</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\buffer_level_filter.h">
+      <Filter>audio_coding\neteq</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\comfort_noise.h">
+      <Filter>audio_coding\neteq</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\cross_correlation.h">
+      <Filter>audio_coding\neteq</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\decision_logic.h">
+      <Filter>audio_coding\neteq</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\decision_logic_fax.h">
+      <Filter>audio_coding\neteq</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\decision_logic_normal.h">
+      <Filter>audio_coding\neteq</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\decoder_database.h">
+      <Filter>audio_coding\neteq</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\defines.h">
+      <Filter>audio_coding\neteq</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\delay_manager.h">
+      <Filter>audio_coding\neteq</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\delay_peak_detector.h">
+      <Filter>audio_coding\neteq</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\dsp_helper.h">
+      <Filter>audio_coding\neteq</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\dtmf_buffer.h">
+      <Filter>audio_coding\neteq</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\dtmf_tone_generator.h">
+      <Filter>audio_coding\neteq</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\expand.h">
+      <Filter>audio_coding\neteq</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\merge.h">
+      <Filter>audio_coding\neteq</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\nack_tracker.h">
+      <Filter>audio_coding\neteq</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\neteq_impl.h">
+      <Filter>audio_coding\neteq</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\normal.h">
+      <Filter>audio_coding\neteq</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\packet.h">
+      <Filter>audio_coding\neteq</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\packet_buffer.h">
+      <Filter>audio_coding\neteq</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\post_decode_vad.h">
+      <Filter>audio_coding\neteq</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\preemptive_expand.h">
+      <Filter>audio_coding\neteq</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\random_vector.h">
+      <Filter>audio_coding\neteq</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\red_payload_splitter.h">
+      <Filter>audio_coding\neteq</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\rtcp.h">
+      <Filter>audio_coding\neteq</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\statistics_calculator.h">
+      <Filter>audio_coding\neteq</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\sync_buffer.h">
+      <Filter>audio_coding\neteq</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\tick_timer.h">
+      <Filter>audio_coding\neteq</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\time_stretch.h">
+      <Filter>audio_coding\neteq</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\timestamp_scaler.h">
+      <Filter>audio_coding\neteq</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\neteq\include\neteq.h">
+      <Filter>audio_coding\neteq\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\codecs\audio_decoder.h">
+      <Filter>audio_coding\codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\codecs\audio_encoder.h">
+      <Filter>audio_coding\codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\codecs\audio_format_conversion.h">
+      <Filter>audio_coding\codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\codecs\builtin_audio_decoder_factory.h">
+      <Filter>audio_coding\codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\codecs\builtin_audio_decoder_factory_internal.h">
+      <Filter>audio_coding\codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\codecs\legacy_encoded_audio_frame.h">
+      <Filter>audio_coding\codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\audio_network_adaptor\audio_network_adaptor_impl.h">
+      <Filter>audio_network_adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\audio_network_adaptor\bitrate_controller.h">
+      <Filter>audio_network_adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\audio_network_adaptor\channel_controller.h">
+      <Filter>audio_network_adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\audio_network_adaptor\controller.h">
+      <Filter>audio_network_adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\audio_network_adaptor\controller_manager.h">
+      <Filter>audio_network_adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\audio_network_adaptor\debug_dump_writer.h">
+      <Filter>audio_network_adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\audio_network_adaptor\dtx_controller.h">
+      <Filter>audio_network_adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\audio_network_adaptor\event_log_writer.h">
+      <Filter>audio_network_adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\audio_network_adaptor\fec_controller.h">
+      <Filter>audio_network_adaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\audio_coding\audio_network_adaptor\frame_length_controller.h">
+      <Filter>audio_network_adaptor</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

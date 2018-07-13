@@ -1,0 +1,6 @@
+﻿  audio_encoder_pcm16b.cc
+  audio_decoder_pcm16b.cc
+  正在生成代码...
+  pcm16b.c
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\modules\audio_coding\codecs\pcm16b\pcm16b.c(22): warning C4244: “=”: 从“uint16_t”转换到“uint8_t”，可能丢失数据
+  webrtc_codec_pcm16b.vcxproj -> E:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\vs140\x64\Debug\webrtc_codec_pcm16b.lib

@@ -1,0 +1,82 @@
+﻿  webrtcsessiondescriptionfactory.cc
+  webrtcsession.cc
+  webrtcsdp.cc
+  videotracksource.cc
+  videotrack.cc
+  videocapturertracksource.cc
+  trackmediainfomap.cc
+  statscollector.cc
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\pc\statscollector.cc(247): warning C4838: 从“const uint32_t”转换到“const int &”需要收缩转换
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\pc\statscollector.cc(264): warning C4244: “参数”: 从“const uint64_t”转换到“int”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\pc\statscollector.cc(281): warning C4838: 从“const uint32_t”转换到“const int &”需要收缩转换
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\pc\statscollector.cc(631): warning C4838: 从“const std::size_t”转换到“const int64_t &”需要收缩转换
+  srtpfilter.cc
+  sctputils.cc
+  rtpsender.cc
+  rtpreceiver.cc
+  rtcstatscollector.cc
+  rtcpmuxfilter.cc
+  remoteaudiosource.cc
+  peerconnectionfactory.cc
+  peerconnection.cc
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\system_wrappers\include\ntp_time.h(43): warning C4244: “return”: 从“uint64_t”转换到“uint32_t”，可能丢失数据
+  ortcfactory.cc
+  mediastreamobserver.cc
+  mediastream.cc
+  正在生成代码...
+  正在编译...
+  mediasession.cc
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\pc\mediasession.cc(1016): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(568): note: 参见“stricmp”的声明
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\pc\mediasession.cc(705): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(568): note: 参见“stricmp”的声明
+  e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\pc\mediasession.cc(806): note: 参见对正在编译的函数 模板 实例化“bool cricket::IsRtxCodec<C>(const C &)”的引用
+          with
+          [
+              C=cricket::AudioCodec
+          ]
+  e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\pc\mediasession.cc(1289): note: 参见对正在编译的函数 模板 实例化“void cricket::NegotiateCodecs<Codec>(const std::vector<Codec,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &,std::vector<_Ty,std::allocator<_Ty>> *)”的引用
+          with
+          [
+              Codec=cricket::AudioCodec,
+              _Ty=cricket::AudioCodec
+          ]
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\pc\mediasession.cc(720): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(568): note: 参见“stricmp”的声明
+  e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\pc\mediasession.cc(711): note: 参见对正在编译的函数 模板 实例化“bool cricket::IsFlexfecCodec<cricket::AudioCodec>(const C &)”的引用
+          with
+          [
+              C=cricket::AudioCodec
+          ]
+  e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\pc\mediasession.cc(452): note: 参见对正在编译的函数 模板 实例化“bool cricket::ContainsFlexfecCodec<Codec>(const std::vector<Codec,std::allocator<_Ty>> &)”的引用
+          with
+          [
+              Codec=cricket::AudioCodec,
+              _Ty=cricket::AudioCodec
+          ]
+  e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\pc\mediasession.cc(762): note: 参见对正在编译的函数 模板 实例化“bool cricket::AddStreamParams<cricket::AudioCodec>(cricket::MediaType,const cricket::MediaSessionOptions &,cricket::StreamParamsVec *,cricket::MediaContentDescriptionImpl<cricket::AudioCodec> *,const bool)”的引用
+  e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\pc\mediasession.cc(1690): note: 参见对正在编译的函数 模板 实例化“bool cricket::CreateMediaContentOffer<Codec>(const cricket::MediaSessionOptions &,const std::vector<Codec,std::allocator<_Ty>> &,const cricket::SecurePolicy &,const cricket::CryptoParamsVec *,const std::vector<std::string,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>> &,const cricket::RtpHeaderExtensions &,bool,cricket::StreamParamsVec *,cricket::MediaContentDescriptionImpl<cricket::AudioCodec> *)”的引用
+          with
+          [
+              Codec=cricket::AudioCodec,
+              _Ty=cricket::AudioCodec
+          ]
+  mediamonitor.cc
+  mediacontroller.cc
+  localaudiosource.cc
+  jsepsessiondescription.cc
+  jsepicecandidate.cc
+  externalhmac.cc
+  dtmfsender.cc
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\pc\dtmfsender.cc : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\pc\dtmfsender.cc(58): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+  datachannel.cc
+  currentspeakermonitor.cc
+  channelmanager.cc
+  channel.cc
+  bundlefilter.cc
+  audiotrack.cc
+  audiomonitor.cc
+  正在生成代码...
+externalhmac.obj : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+  webrtc_pc.vcxproj -> E:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\vs140\x64\Debug\webrtc_pc.lib

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <webrtc_root>..\..</webrtc_root>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..;$(webrtc_root);$(webrtc_root)\third_party\jsoncpp\include;$(webrtc_root)\third_party\expat\x86-windows-cl14\include;$(webrtc_root)\third_party\libyuv\x86-windows-cl14\include;$(webrtc_root)\third_party\DirectX\DirectShow\BaseClasses;$(webrtc_root)\third_party\openssl\x86-windows-cl14\include;$(webrtc_root)\third_party\librtmp\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WEBRTC_WIN;NOMINMAX;EXPAT_RELATIVE_PATH;WEBRTC_NS_FIXED;WEBRTC_INCLUDE_INTERNAL_AUDIO_DEVICE;WEBRTC_USE_H264;HAVE_WEBRTC_VOICE;HAVE_WEBRTC_VIDEO;WEBRTC_CODEC_ISAC;WEBRTC_APM_DEBUG_DUMP=0;_CRT_SECURE_NO_WARNINGS;WEBRTC_INTELLIGIBILITY_ENHANCER=0;HAVE_SRTP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)$(Configuration);$(webrtc_root)\third_party\DirectX\DirectShow\BaseClasses\lib;$(webrtc_root)\third_party\libyuv\x86-windows-cl14\lib;$(webrtc_root)\third_party\ffmpeg\x86-windows-cl14\bin;$(webrtc_root)\third_party\openssl\x86-windows-cl14\lib;$(webrtc_root)\third_party\libvpx\x86-windows-cl14\lib;$(webrtc_root)\third_party\libsrtp\x86-windows-cl14\lib;$(webrtc_root)\third_party\openh264\x86-windows-cl14\lib;$(webrtc_root)\third_party\opus\x86-windows-cl14\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>ws2_32.lib;winmm.lib;Secur32.lib;Iphlpapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <BuildMacro Include="webrtc_root">
+      <Value>$(webrtc_root)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>

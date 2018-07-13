@@ -1,0 +1,25 @@
+﻿  bitrate_adjuster.cc
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\system_wrappers\include\ntp_time.h(43): warning C4244: “return”: 从“uint64_t”转换到“uint32_t”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\common_video\bitrate_adjuster.cc(40): warning C4244: “参数”: 从“double”转换到“int64_t”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\common_video\bitrate_adjuster.cc(80): warning C4244: “初始化”: 从“int64_t”转换到“uint32_t”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\common_video\bitrate_adjuster.cc(97): warning C4244: “return”: 从“float”转换到“uint32_t”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\common_video\bitrate_adjuster.cc(101): warning C4244: “return”: 从“float”转换到“uint32_t”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\common_video\bitrate_adjuster.cc(124): warning C4244: “初始化”: 从“volatile uint32_t”转换到“float”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\common_video\bitrate_adjuster.cc(126): warning C4244: “参数”: 从“float”转换到“const uint32_t”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\common_video\bitrate_adjuster.cc(126): warning C4244: “初始化”: 从“const uint32_t”转换到“float”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\common_video\bitrate_adjuster.cc(133): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\common_video\bitrate_adjuster.cc(137): warning C4244: “初始化”: 从“uint32_t”转换到“float”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\common_video\bitrate_adjuster.cc(138): warning C4244: “初始化”: 从“uint32_t”转换到“float”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\common_video\bitrate_adjuster.cc(143): warning C4244: “初始化”: 从“volatile uint32_t”转换到“float”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\common_video\bitrate_adjuster.cc(154): warning C4244: “=”: 从“float”转换到“volatile uint32_t”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  video_render_frames.cc
+  incoming_video_stream.cc
+  i420_buffer_pool.cc
+  sps_vui_rewriter.cc
+  sps_parser.cc
+  pps_parser.cc
+  h264_bitstream_parser.cc
+  正在生成代码...
+  webrtc_common_video.vcxproj -> E:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\vs140\Debug\webrtc_common_video.lib

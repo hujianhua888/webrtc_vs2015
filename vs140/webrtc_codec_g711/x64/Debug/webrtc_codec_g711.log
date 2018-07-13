@@ -1,0 +1,7 @@
+﻿  audio_encoder_pcm.cc
+  audio_decoder_pcm.cc
+  正在生成代码...
+  g711_interface.c
+  g711.c
+  正在生成代码...
+  webrtc_codec_g711.vcxproj -> E:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\vs140\x64\Debug\webrtc_codec_g711.lib

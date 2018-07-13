@@ -1,0 +1,41 @@
+﻿  webrtcvoiceengine.cc
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\system_wrappers\include\ntp_time.h(43): warning C4244: “return”: 从“uint64_t”转换到“uint32_t”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\modules\audio_processing\include\audio_processing.h(492): warning C4244: “参数”: 从“const int”转换到“float”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\media\engine\webrtcvoiceengine.cc(1630): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\media\engine\webrtcvoiceengine.cc(2492): warning C4244: “参数”: 从“int64_t”转换到“uint32_t”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\media\engine\webrtcvoiceengine.cc(2496): warning C4244: “参数”: 从“int64_t”转换到“uint32_t”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\media\engine\webrtcvoiceengine.cc(2500): warning C4244: “参数”: 从“int64_t”转换到“uint32_t”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\media\engine\webrtcvoiceengine.cc(2669): warning C4244: “参数”: 从“int64_t”转换到“uint32_t”，可能丢失数据
+  webrtcvideoengine2.cc
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\system_wrappers\include\ntp_time.h(43): warning C4244: “return”: 从“uint64_t”转换到“uint32_t”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\modules\audio_processing\include\audio_processing.h(492): warning C4244: “参数”: 从“const int”转换到“float”，可能丢失数据
+  webrtcvideoencoderfactory.cc
+  webrtcvideocapturerfactory.cc
+  webrtcvideocapturer.cc
+  webrtcmediaengine.cc
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\system_wrappers\include\ntp_time.h(43): warning C4244: “return”: 从“uint64_t”转换到“uint32_t”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\modules\audio_processing\include\audio_processing.h(492): warning C4244: “参数”: 从“const int”转换到“float”，可能丢失数据
+  videoencodersoftwarefallbackwrapper.cc
+  videodecodersoftwarefallbackwrapper.cc
+  simulcast.cc
+  payload_type_mapper.cc
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\media\engine\payload_type_mapper.cc(20): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  internalencoderfactory.cc
+  internaldecoderfactory.cc
+  videosourcebase.cc
+  videocommon.cc
+  videocapturer.cc
+  videobroadcaster.cc
+  videoadapter.cc
+  turnutils.cc
+  streamparams.cc
+  rtputils.cc
+  正在生成代码...
+  正在编译...
+  rtpdataengine.cc
+  mediaengine.cc
+  mediaconstants.cc
+  codec.cc
+  adaptedvideotracksource.cc
+  正在生成代码...
+  webrtc_media.vcxproj -> E:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\vs140\x64\Debug\webrtc_media.lib

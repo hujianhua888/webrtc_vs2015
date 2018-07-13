@@ -1,0 +1,3 @@
+﻿  audio_conference_mixer_impl.cc
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\modules\audio_processing\include\audio_processing.h(492): warning C4244: “参数”: 从“const int”转换到“float”，可能丢失数据
+  webrtc_module_audio_conference_mixer.vcxproj -> E:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\vs140\Debug\webrtc_module_audio_conference_mixer.lib

@@ -1,0 +1,10 @@
+﻿  screenshare_layers.cc
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\modules\video_coding\codecs\vp9\screenshare_layers.cc(38): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  vp9_impl.cc
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\modules\video_coding\codecs\vp9\vp9_impl.cc(478): warning C4244: “初始化”: 从“float”转换到“uint32_t”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\modules\video_coding\codecs\vp9\vp9_impl.cc(773): warning C4244: “=”: 从“int64_t”转换到“uint8_t”，可能丢失数据
+  vp9_frame_buffer_pool.cc
+  正在生成代码...
+  webrtc_codec_vp9.vcxproj -> E:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\vs140\Debug\webrtc_codec_vp9.lib

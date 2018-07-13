@@ -1,0 +1,86 @@
+﻿  window_generator.cc
+  wav_header.cc
+  wav_file.cc
+  vad.cc
+  sparse_fir_filter.cc
+  smoothing_filter.cc
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\system_wrappers\include\ntp_time.h(43): warning C4244: “return”: 从“uint64_t”转换到“uint32_t”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\common_audio\smoothing_filter.cc(24): warning C4244: “参数”: 从“const int”转换到“float”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\common_audio\smoothing_filter.cc(30): warning C4244: “参数”: 从“const int”转换到“float”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\common_audio\smoothing_filter.cc(93): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\common_audio\smoothing_filter.cc(96): warning C4244: “参数”: 从“int64_t”转换到“float”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\common_audio\smoothing_filter.cc(97): warning C4244: “参数”: 从“int64_t”转换到“float”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\common_audio\smoothing_filter.cc(107): warning C4244: “参数”: 从“int64_t”转换到“float”，可能丢失数据
+  sinc_resampler_sse.cc
+  sinc_resampler.cc
+  resampler.cc
+  push_sinc_resampler.cc
+  push_resampler.cc
+  real_fourier_ooura.cc
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(2372): warning C4996: 'std::copy::_Unchecked_iterators::_Deprecate': Call to 'std::copy' with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(2372): note: 参见“std::copy::_Unchecked_iterators::_Deprecate”的声明
+  e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\common_audio\real_fourier_ooura.cc(53): note: 参见对正在编译的函数 模板 实例化“_OutIt *std::copy<const float*,float*>(_InIt,_InIt,_OutIt)”的引用
+          with
+          [
+              _OutIt=float *,
+              _InIt=const float *
+          ]
+  real_fourier.cc
+  lapped_transform.cc
+  fir_filter_sse.cc
+  fir_filter.cc
+  channel_buffer.cc
+  blocker.cc
+  audio_util.cc
+  audio_ring_buffer.cc
+  正在生成代码...
+  正在编译...
+  audio_converter.cc
+  正在生成代码...
+  webrtc_vad.c
+  vad_sp.c
+  vad_gmm.c
+  vad_filterbank.c
+  vad_core.c
+  vector_scaling_operations.c
+  sqrt_of_one_minus_x_squared.c
+  spl_sqrt_floor.c
+  spl_sqrt.c
+  spl_inl.c
+  spl_init.c
+  splitting_filter.c
+  resample_fractional.c
+  resample_by_2_internal.c
+  resample_by_2.c
+  resample_48khz.c
+  resample.c
+  refl_coef_to_lpc.c
+  real_fft.c
+  randomization_functions.c
+  正在生成代码...
+  正在编译...
+  min_max_operations.c
+  lpc_to_refl_coef.c
+  levinson_durbin.c
+  ilbc_specific_functions.c
+  get_scaling_square.c
+  get_hanning_window.c
+  filter_ma_fast_q12.c
+  filter_ar_fast_q12.c
+  filter_ar.c
+  energy.c
+  downsample_fast.c
+  dot_product_with_scale.c
+  division_operations.c
+  cross_correlation.c
+  copy_set_operations.c
+  complex_fft.c
+  complex_bit_reverse.c
+  auto_corr_to_refl_coef.c
+  auto_correlation.c
+  ring_buffer.c
+  正在生成代码...
+  正在编译...
+  fft4g.c
+  正在生成代码...
+  webrtc_common_audio.vcxproj -> E:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\vs140\Debug\webrtc_common_audio.lib

@@ -1,0 +1,6 @@
+﻿  vp8_impl.cc
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\system_wrappers\include\ntp_time.h(43): warning C4244: “return”: 从“uint64_t”转换到“uint32_t”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\modules\video_coding\codecs\vp8\vp8_impl.cc(648): warning C4244: “初始化”: 从“float”转换到“uint32_t”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\modules\video_coding\codecs\vp8\vp8_impl.cc(753): warning C4244: “参数”: 从“const uint64_t”转换到“int”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\modules\video_coding\codecs\vp8\vp8_impl.cc(769): warning C4244: “初始化”: 从“const uint64_t”转换到“int”，可能丢失数据
+  webrtc_codec_vp8.vcxproj -> E:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\vs140\Debug\webrtc_codec_vp8.lib

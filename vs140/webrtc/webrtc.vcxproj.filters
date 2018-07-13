@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="api">
+      <UniqueIdentifier>{df5f831b-87bb-4df1-b86a-b15ff09e0b84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="api\audio_codecs">
+      <UniqueIdentifier>{3a080013-dd15-46d4-97c5-92166c6df113}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="api\audio">
+      <UniqueIdentifier>{95aad43a-8731-4cd4-ad4d-2091161ba849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="api\call">
+      <UniqueIdentifier>{71a0028a-3abf-4a3b-832a-dd420cfe16a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="api\stats">
+      <UniqueIdentifier>{67925878-f157-4bcb-bbe0-c6f955755f9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="api\video">
+      <UniqueIdentifier>{e8d1f913-c67b-45bc-9081-4561e162a8d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stats">
+      <UniqueIdentifier>{4a9d89c2-790d-4c53-864c-b41c650ae2b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="logging">
+      <UniqueIdentifier>{05909d91-c3d5-468e-a93c-a7816c05ea13}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\webrtc\api\audio_codecs\audio_decoder.cc">
+      <Filter>api\audio_codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\api\audio_codecs\audio_format.cc">
+      <Filter>api\audio_codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\api\audio_codecs\builtin_audio_decoder_factory.cc">
+      <Filter>api\audio_codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\api\video\i420_buffer.cc">
+      <Filter>api\video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\api\video\video_frame.cc">
+      <Filter>api\video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\api\fakemetricsobserver.cc" />
+    <ClCompile Include="..\..\webrtc\api\mediaconstraintsinterface.cc" />
+    <ClCompile Include="..\..\webrtc\api\mediastreaminterface.cc" />
+    <ClCompile Include="..\..\webrtc\api\mediatypes.cc" />
+    <ClCompile Include="..\..\webrtc\api\statstypes.cc" />
+    <ClCompile Include="..\..\webrtc\common_types.cc" />
+    <ClCompile Include="..\..\webrtc\config.cc" />
+    <ClCompile Include="..\..\webrtc\no_op_function.cc" />
+    <ClCompile Include="..\..\webrtc\stats\rtcstats.cc">
+      <Filter>stats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\stats\rtcstatsreport.cc">
+      <Filter>stats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\stats\rtcstats_objects.cc">
+      <Filter>stats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\logging\rtc_event_log\rtc_event_log.cc">
+      <Filter>logging</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\logging\rtc_event_log\rtc_event_log_helper_thread.cc">
+      <Filter>logging</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\webrtc\api\audio_codecs\audio_decoder.h">
+      <Filter>api\audio_codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\api\audio_codecs\audio_decoder_factory.h">
+      <Filter>api\audio_codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\api\audio_codecs\audio_format.h">
+      <Filter>api\audio_codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\api\audio_codecs\builtin_audio_decoder_factory.h">
+      <Filter>api\audio_codecs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\api\audio\audio_mixer.h">
+      <Filter>api\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\api\call\audio_sink.h">
+      <Filter>api\call</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\api\call\transport.h">
+      <Filter>api\call</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\api\stats\rtcstats.h">
+      <Filter>api\stats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\api\stats\rtcstats_objects.h">
+      <Filter>api\stats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\api\stats\rtcstatscollectorcallback.h">
+      <Filter>api\stats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\api\stats\rtcstatsreport.h">
+      <Filter>api\stats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\api\video\i420_buffer.h">
+      <Filter>api\video</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\api\video\video_frame.h">
+      <Filter>api\video</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\api\video\video_frame_buffer.h">
+      <Filter>api\video</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\api\video\video_rotation.h">
+      <Filter>api\video</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\api\datachannel.h" />
+    <ClInclude Include="..\..\webrtc\api\datachannelinterface.h" />
+    <ClInclude Include="..\..\webrtc\api\dtmfsenderinterface.h" />
+    <ClInclude Include="..\..\webrtc\api\fakemetricsobserver.h" />
+    <ClInclude Include="..\..\webrtc\api\jsep.h" />
+    <ClInclude Include="..\..\webrtc\api\jsepicecandidate.h" />
+    <ClInclude Include="..\..\webrtc\api\jsepsessiondescription.h" />
+    <ClInclude Include="..\..\webrtc\api\mediaconstraintsinterface.h" />
+    <ClInclude Include="..\..\webrtc\api\mediacontroller.h" />
+    <ClInclude Include="..\..\webrtc\api\mediastream.h" />
+    <ClInclude Include="..\..\webrtc\api\mediastreaminterface.h" />
+    <ClInclude Include="..\..\webrtc\api\mediastreamproxy.h" />
+    <ClInclude Include="..\..\webrtc\api\mediastreamtrack.h" />
+    <ClInclude Include="..\..\webrtc\api\mediastreamtrackproxy.h" />
+    <ClInclude Include="..\..\webrtc\api\mediatypes.h" />
+    <ClInclude Include="..\..\webrtc\api\notifier.h" />
+    <ClInclude Include="..\..\webrtc\api\ortcfactoryinterface.h" />
+    <ClInclude Include="..\..\webrtc\api\peerconnectionfactoryproxy.h" />
+    <ClInclude Include="..\..\webrtc\api\peerconnectioninterface.h" />
+    <ClInclude Include="..\..\webrtc\api\peerconnectionproxy.h" />
+    <ClInclude Include="..\..\webrtc\api\proxy.h" />
+    <ClInclude Include="..\..\webrtc\api\rtpparameters.h" />
+    <ClInclude Include="..\..\webrtc\api\rtpreceiverinterface.h" />
+    <ClInclude Include="..\..\webrtc\api\rtpsender.h" />
+    <ClInclude Include="..\..\webrtc\api\rtpsenderinterface.h" />
+    <ClInclude Include="..\..\webrtc\api\statstypes.h" />
+    <ClInclude Include="..\..\webrtc\api\streamcollection.h" />
+    <ClInclude Include="..\..\webrtc\api\udptransportinterface.h" />
+    <ClInclude Include="..\..\webrtc\api\umametrics.h" />
+    <ClInclude Include="..\..\webrtc\api\videosourceproxy.h" />
+    <ClInclude Include="..\..\webrtc\api\videotracksource.h" />
+    <ClInclude Include="..\..\webrtc\api\webrtcsdp.h" />
+    <ClInclude Include="..\..\webrtc\common_types.h" />
+    <ClInclude Include="..\..\webrtc\config.h" />
+    <ClInclude Include="..\..\webrtc\typedefs.h" />
+    <ClInclude Include="..\..\webrtc\video_decoder.h" />
+    <ClInclude Include="..\..\webrtc\video_encoder.h" />
+    <ClInclude Include="..\..\webrtc\video_frame.h" />
+    <ClInclude Include="..\..\webrtc\video_receive_stream.h" />
+    <ClInclude Include="..\..\webrtc\video_send_stream.h" />
+    <ClInclude Include="..\..\webrtc\logging\rtc_event_log\ringbuffer.h">
+      <Filter>logging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\logging\rtc_event_log\rtc_event_log.h">
+      <Filter>logging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\logging\rtc_event_log\rtc_event_log_helper_thread.h">
+      <Filter>logging</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

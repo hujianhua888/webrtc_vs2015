@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{0412cd2b-35c8-4f38-8f33-a575b622cd11}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\webrtc\voice_engine\channel.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\voice_engine\channel_manager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\voice_engine\channel_proxy.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\voice_engine\coder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\voice_engine\file_player.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\voice_engine\file_recorder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\voice_engine\level_indicator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\voice_engine\monitor_module.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\voice_engine\output_mixer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\voice_engine\shared_data.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\voice_engine\statistics.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\voice_engine\transmit_mixer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\voice_engine\transport_feedback_packet_loss_tracker.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\voice_engine\utility.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\voice_engine\voe_audio_processing_impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\voice_engine\voe_base_impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\voice_engine\voe_codec_impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\voice_engine\voe_file_impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\voice_engine\voe_hardware_impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\voice_engine\voe_neteq_stats_impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\voice_engine\voe_network_impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\voice_engine\voe_rtp_rtcp_impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\voice_engine\voe_volume_control_impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\voice_engine\voice_engine_impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\webrtc\voice_engine\channel.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\channel_manager.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\channel_proxy.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\coder.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\file_player.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\file_recorder.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\level_indicator.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\monitor_module.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\output_mixer.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\shared_data.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\statistics.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\transmit_mixer.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\transport_feedback_packet_loss_tracker.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\utility.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\voe_audio_processing_impl.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\voe_base_impl.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\voe_codec_impl.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\voe_file_impl.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\voe_hardware_impl.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\voe_neteq_stats_impl.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\voe_network_impl.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\voe_rtp_rtcp_impl.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\voe_volume_control_impl.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\voice_engine_defines.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\voice_engine_fixture.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\voice_engine_impl.h" />
+  </ItemGroup>
+</Project>

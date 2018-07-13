@@ -1,0 +1,29 @@
+﻿  srtp.c
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\third_party\libsrtp\srtp\srtp.c(125): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 参见“sscanf”的声明
+  ekt.c
+  ut_sim.c
+  rdbx.c
+  rdb.c
+  stat.c
+  datatypes.c
+  key.c
+  err.c
+  crypto_kernel.c
+  alloc.c
+  null_auth.c
+  hmac_ossl.c
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\third_party\libsrtp\crypto\hash\hmac_ossl.c(197): warning C4018: “<”: 有符号/无符号不匹配
+  auth.c
+  null_cipher.c
+  cipher.c
+  aes_icm_ossl.c
+  aes_gcm_ossl.c
+  aes.c
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\third_party\libsrtp\crypto\cipher\aes.c(2101): warning C4013: “aes_round”未定义；假设外部返回 int
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\third_party\libsrtp\crypto\cipher\aes.c(2111): warning C4013: “aes_final_round”未定义；假设外部返回 int
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\third_party\libsrtp\crypto\cipher\aes.c(2132): warning C4013: “aes_inv_round”未定义；假设外部返回 int
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\third_party\libsrtp\crypto\cipher\aes.c(2142): warning C4013: “aes_inv_final_round”未定义；假设外部返回 int
+  正在生成代码...
+  libsrtp.vcxproj -> E:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\vs140\Debug\libsrtp.lib
+  已复制         1 个文件。

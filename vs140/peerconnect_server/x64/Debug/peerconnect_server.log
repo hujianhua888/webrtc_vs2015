@@ -1,0 +1,8 @@
+﻿  utils.cc
+  peer_channel.cc
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\examples\peerconnection\server\data_socket.h(20): fatal error C1083: 无法打开包括文件: “netinet/in.h”: No such file or directory
+  main.cc
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\examples\peerconnection\server\data_socket.h(20): fatal error C1083: 无法打开包括文件: “netinet/in.h”: No such file or directory
+  data_socket.cc
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\examples\peerconnection\server\data_socket.h(20): fatal error C1083: 无法打开包括文件: “netinet/in.h”: No such file or directory
+  正在生成代码...

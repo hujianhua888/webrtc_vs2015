@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="libyuv">
+      <UniqueIdentifier>{8d59b089-0ae4-4f5b-a8c3-4696b2c6678d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="h264">
+      <UniqueIdentifier>{7b5fe9a3-bd02-4091-af99-7673e6ec5b18}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\webrtc\common_video\bitrate_adjuster.cc" />
+    <ClCompile Include="..\..\webrtc\common_video\i420_buffer_pool.cc" />
+    <ClCompile Include="..\..\webrtc\common_video\incoming_video_stream.cc" />
+    <ClCompile Include="..\..\webrtc\common_video\video_frame.cc" />
+    <ClCompile Include="..\..\webrtc\common_video\video_frame_buffer.cc" />
+    <ClCompile Include="..\..\webrtc\common_video\video_render_frames.cc" />
+    <ClCompile Include="..\..\webrtc\common_video\libyuv\webrtc_libyuv.cc">
+      <Filter>libyuv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\common_video\h264\h264_bitstream_parser.cc">
+      <Filter>h264</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\common_video\h264\h264_common.cc">
+      <Filter>h264</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\common_video\h264\pps_parser.cc">
+      <Filter>h264</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\common_video\h264\profile_level_id.cc">
+      <Filter>h264</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\common_video\h264\sps_parser.cc">
+      <Filter>h264</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\common_video\h264\sps_vui_rewriter.cc">
+      <Filter>h264</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\webrtc\common_video\rotation.h" />
+    <ClInclude Include="..\..\webrtc\common_video\video_render_frames.h" />
+    <ClInclude Include="..\..\webrtc\common_video\h264\h264_bitstream_parser.h">
+      <Filter>h264</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\common_video\h264\h264_common.h">
+      <Filter>h264</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\common_video\h264\pps_parser.h">
+      <Filter>h264</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\common_video\h264\profile_level_id.h">
+      <Filter>h264</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\common_video\h264\sps_parser.h">
+      <Filter>h264</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\common_video\h264\sps_vui_rewriter.h">
+      <Filter>h264</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

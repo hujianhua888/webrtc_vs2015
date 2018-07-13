@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="utility">
+      <UniqueIdentifier>{b29e7316-c468-40b5-8f0a-3f80c56e97fa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\webrtc\modules\video_coding\codec_database.cc" />
+    <ClCompile Include="..\..\webrtc\modules\video_coding\codec_timer.cc" />
+    <ClCompile Include="..\..\webrtc\modules\video_coding\decoding_state.cc" />
+    <ClCompile Include="..\..\webrtc\modules\video_coding\encoded_frame.cc" />
+    <ClCompile Include="..\..\webrtc\modules\video_coding\frame_buffer.cc" />
+    <ClCompile Include="..\..\webrtc\modules\video_coding\frame_buffer2.cc" />
+    <ClCompile Include="..\..\webrtc\modules\video_coding\frame_object.cc" />
+    <ClCompile Include="..\..\webrtc\modules\video_coding\generic_decoder.cc" />
+    <ClCompile Include="..\..\webrtc\modules\video_coding\generic_encoder.cc" />
+    <ClCompile Include="..\..\webrtc\modules\video_coding\h264_sprop_parameter_sets.cc" />
+    <ClCompile Include="..\..\webrtc\modules\video_coding\h264_sps_pps_tracker.cc" />
+    <ClCompile Include="..\..\webrtc\modules\video_coding\histogram.cc" />
+    <ClCompile Include="..\..\webrtc\modules\video_coding\inter_frame_delay.cc" />
+    <ClCompile Include="..\..\webrtc\modules\video_coding\jitter_buffer.cc" />
+    <ClCompile Include="..\..\webrtc\modules\video_coding\jitter_estimator.cc" />
+    <ClCompile Include="..\..\webrtc\modules\video_coding\media_opt_util.cc" />
+    <ClCompile Include="..\..\webrtc\modules\video_coding\media_optimization.cc" />
+    <ClCompile Include="..\..\webrtc\modules\video_coding\nack_module.cc" />
+    <ClCompile Include="..\..\webrtc\modules\video_coding\packet.cc" />
+    <ClCompile Include="..\..\webrtc\modules\video_coding\packet_buffer.cc" />
+    <ClCompile Include="..\..\webrtc\modules\video_coding\protection_bitrate_calculator.cc" />
+    <ClCompile Include="..\..\webrtc\modules\video_coding\receiver.cc" />
+    <ClCompile Include="..\..\webrtc\modules\video_coding\rtp_frame_reference_finder.cc" />
+    <ClCompile Include="..\..\webrtc\modules\video_coding\rtt_filter.cc" />
+    <ClCompile Include="..\..\webrtc\modules\video_coding\session_info.cc" />
+    <ClCompile Include="..\..\webrtc\modules\video_coding\timestamp_map.cc" />
+    <ClCompile Include="..\..\webrtc\modules\video_coding\timing.cc" />
+    <ClCompile Include="..\..\webrtc\modules\video_coding\video_codec_initializer.cc" />
+    <ClCompile Include="..\..\webrtc\modules\video_coding\video_coding_impl.cc" />
+    <ClCompile Include="..\..\webrtc\modules\video_coding\video_receiver.cc" />
+    <ClCompile Include="..\..\webrtc\modules\video_coding\video_sender.cc" />
+    <ClCompile Include="..\..\webrtc\modules\video_coding\utility\default_video_bitrate_allocator.cc">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\video_coding\utility\frame_dropper.cc">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\video_coding\utility\ivf_file_writer.cc">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\video_coding\utility\moving_average.cc">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\video_coding\utility\qp_parser.cc">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\video_coding\utility\quality_scaler.cc">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\video_coding\utility\simulcast_rate_allocator.cc">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\webrtc\modules\video_coding\utility\vp8_header_parser.cc">
+      <Filter>utility</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\webrtc\modules\video_coding\codec_database.h" />
+    <ClInclude Include="..\..\webrtc\modules\video_coding\codec_timer.h" />
+    <ClInclude Include="..\..\webrtc\modules\video_coding\decoding_state.h" />
+    <ClInclude Include="..\..\webrtc\modules\video_coding\encoded_frame.h" />
+    <ClInclude Include="..\..\webrtc\modules\video_coding\fec_rate_table.h" />
+    <ClInclude Include="..\..\webrtc\modules\video_coding\frame_buffer.h" />
+    <ClInclude Include="..\..\webrtc\modules\video_coding\frame_buffer2.h" />
+    <ClInclude Include="..\..\webrtc\modules\video_coding\frame_object.h" />
+    <ClInclude Include="..\..\webrtc\modules\video_coding\generic_decoder.h" />
+    <ClInclude Include="..\..\webrtc\modules\video_coding\generic_encoder.h" />
+    <ClInclude Include="..\..\webrtc\modules\video_coding\h264_sprop_parameter_sets.h" />
+    <ClInclude Include="..\..\webrtc\modules\video_coding\h264_sps_pps_tracker.h" />
+    <ClInclude Include="..\..\webrtc\modules\video_coding\histogram.h" />
+    <ClInclude Include="..\..\webrtc\modules\video_coding\inter_frame_delay.h" />
+    <ClInclude Include="..\..\webrtc\modules\video_coding\internal_defines.h" />
+    <ClInclude Include="..\..\webrtc\modules\video_coding\jitter_buffer.h" />
+    <ClInclude Include="..\..\webrtc\modules\video_coding\jitter_buffer_common.h" />
+    <ClInclude Include="..\..\webrtc\modules\video_coding\jitter_estimator.h" />
+    <ClInclude Include="..\..\webrtc\modules\video_coding\media_opt_util.h" />
+    <ClInclude Include="..\..\webrtc\modules\video_coding\media_optimization.h" />
+    <ClInclude Include="..\..\webrtc\modules\video_coding\nack_fec_tables.h" />
+    <ClInclude Include="..\..\webrtc\modules\video_coding\nack_module.h" />
+    <ClInclude Include="..\..\webrtc\modules\video_coding\packet.h" />
+    <ClInclude Include="..\..\webrtc\modules\video_coding\packet_buffer.h" />
+    <ClInclude Include="..\..\webrtc\modules\video_coding\protection_bitrate_calculator.h" />
+    <ClInclude Include="..\..\webrtc\modules\video_coding\receiver.h" />
+    <ClInclude Include="..\..\webrtc\modules\video_coding\rtp_frame_reference_finder.h" />
+    <ClInclude Include="..\..\webrtc\modules\video_coding\rtt_filter.h" />
+    <ClInclude Include="..\..\webrtc\modules\video_coding\sequence_number_util.h" />
+    <ClInclude Include="..\..\webrtc\modules\video_coding\session_info.h" />
+    <ClInclude Include="..\..\webrtc\modules\video_coding\timestamp_map.h" />
+    <ClInclude Include="..\..\webrtc\modules\video_coding\timing.h" />
+    <ClInclude Include="..\..\webrtc\modules\video_coding\video_coding_impl.h" />
+    <ClInclude Include="..\..\webrtc\modules\video_coding\utility\default_video_bitrate_allocator.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\video_coding\utility\frame_dropper.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\video_coding\utility\ivf_file_writer.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\video_coding\utility\moving_average.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\video_coding\utility\qp_parser.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\video_coding\utility\quality_scaler.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\video_coding\utility\simulcast_rate_allocator.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\video_coding\utility\vp8_header_parser.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

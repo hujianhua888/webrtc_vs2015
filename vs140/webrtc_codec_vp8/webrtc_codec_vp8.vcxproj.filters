@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\webrtc\modules\video_coding\codecs\vp8\default_temporal_layers.cc" />
+    <ClCompile Include="..\..\webrtc\modules\video_coding\codecs\vp8\realtime_temporal_layers.cc" />
+    <ClCompile Include="..\..\webrtc\modules\video_coding\codecs\vp8\reference_picture_selection.cc" />
+    <ClCompile Include="..\..\webrtc\modules\video_coding\codecs\vp8\screenshare_layers.cc" />
+    <ClCompile Include="..\..\webrtc\modules\video_coding\codecs\vp8\simulcast_encoder_adapter.cc" />
+    <ClCompile Include="..\..\webrtc\modules\video_coding\codecs\vp8\vp8_impl.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\webrtc\modules\video_coding\codecs\vp8\default_temporal_layers.h" />
+    <ClInclude Include="..\..\webrtc\modules\video_coding\codecs\vp8\reference_picture_selection.h" />
+    <ClInclude Include="..\..\webrtc\modules\video_coding\codecs\vp8\screenshare_layers.h" />
+    <ClInclude Include="..\..\webrtc\modules\video_coding\codecs\vp8\simulcast_encoder_adapter.h" />
+    <ClInclude Include="..\..\webrtc\modules\video_coding\codecs\vp8\temporal_layers.h" />
+    <ClInclude Include="..\..\webrtc\modules\video_coding\codecs\vp8\vp8_impl.h" />
+    <ClInclude Include="..\..\webrtc\modules\video_coding\codecs\vp8\include\vp8.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\video_coding\codecs\vp8\include\vp8_common_types.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\webrtc\modules\video_coding\codecs\vp8\include\vp8_globals.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{0aab568e-c72d-411c-8065-438676f379fc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

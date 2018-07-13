@@ -1,0 +1,19 @@
+﻿  acm_receiver.cc
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\system_wrappers\include\ntp_time.h(43): warning C4244: “return”: 从“uint64_t”转换到“uint32_t”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  red_payload_splitter.cc
+  packet_buffer.cc
+  neteq_impl.cc
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\modules\audio_coding\neteq\neteq_impl.cc(1155): warning C4244: “参数”: 从“uint64_t”转换到“std::size_t”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\modules\audio_coding\neteq\neteq_impl.cc(1965): warning C4244: “参数”: 从“uint64_t”转换到“int”，可能丢失数据
+  dtmf_buffer.cc
+  decoder_database.cc
+  comfort_noise.cc
+  frame_length_controller.cc
+  event_log_writer.cc
+  audio_network_adaptor_impl.cc
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\system_wrappers\include\ntp_time.h(43): warning C4244: “return”: 从“uint64_t”转换到“uint32_t”，可能丢失数据
+  rent_a_codec.cc
+  正在生成代码...
+  webrtc_module_audio_coding.vcxproj -> E:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\vs140\Debug\webrtc_module_audio_coding.lib

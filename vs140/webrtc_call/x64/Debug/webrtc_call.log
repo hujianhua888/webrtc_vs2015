@@ -1,0 +1,17 @@
+﻿  syncable.cc
+  flexfec_receive_stream_impl.cc
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\system_wrappers\include\ntp_time.h(43): warning C4244: “return”: 从“uint64_t”转换到“uint32_t”，可能丢失数据
+  call.cc
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\modules\audio_processing\include\audio_processing.h(492): warning C4244: “参数”: 从“const int”转换到“float”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\system_wrappers\include\ntp_time.h(43): warning C4244: “return”: 从“uint64_t”转换到“uint32_t”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\call\call.cc(424): warning C4244: “参数”: 从“int64_t”转换到“int”，可能丢失数据
+  bitrate_allocator.cc
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\system_wrappers\include\ntp_time.h(43): warning C4244: “return”: 从“uint64_t”转换到“uint32_t”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\call\bitrate_allocator.cc(99): warning C4244: “初始化”: 从“double”转换到“uint32_t”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\call\bitrate_allocator.cc(207): warning C4244: “return”: 从“int64_t”转换到“int”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\call\bitrate_allocator.cc(308): warning C4244: “参数”: 从“int64_t”转换到“uint32_t”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\call\bitrate_allocator.cc(351): warning C4244: “return”: 从“int64_t”转换到“uint32_t”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\call\bitrate_allocator.cc(368): warning C4244: “+=”: 从“double”转换到“uint32_t”，可能丢失数据
+  audio_send_stream.cc
+  正在生成代码...
+  webrtc_call.vcxproj -> E:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\vs140\x64\Debug\webrtc_call.lib

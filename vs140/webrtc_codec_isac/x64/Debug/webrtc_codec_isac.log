@@ -1,0 +1,46 @@
+﻿  audio_encoder_isac.cc
+  audio_decoder_isac.cc
+  locked_bandwidth_info.cc
+  empty.cc
+  正在生成代码...
+  utility.c
+  transform.c
+  spectrum_ar_model_tables.c
+  pitch_lag_tables.c
+  pitch_gain_tables.c
+  pitch_filter.c
+  pitch_estimator.c
+  lpc_tables.c
+  lpc_shape_swb16_tables.c
+  lpc_shape_swb12_tables.c
+  lpc_gain_swb_tables.c
+  lpc_analysis.c
+  lattice.c
+  isac.c
+  intialize.c
+  filter_functions.c
+  filterbank_tables.c
+  filterbanks.c
+  fft.c
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\modules\audio_coding\codecs\isac\main\source\fft.c(299): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  entropy_coding.c
+  正在生成代码...
+  正在编译...
+  encode_lpc_swb.c
+  encode.c
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\modules\audio_coding\codecs\isac\main\source\encode.c(546): warning C4244: “初始化”: 从“double”转换到“const int16_t”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\modules\audio_coding\codecs\isac\main\source\encode.c(668): warning C4244: “初始化”: 从“double”转换到“const int16_t”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\modules\audio_coding\codecs\isac\main\source\encode.c(862): warning C4244: “初始化”: 从“double”转换到“const int16_t”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\modules\audio_coding\codecs\isac\main\source\encode.c(1153): warning C4244: “初始化”: 从“double”转换到“const int16_t”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\modules\audio_coding\codecs\isac\main\source\encode.c(1237): warning C4244: “初始化”: 从“double”转换到“const int16_t”，可能丢失数据
+  decode_bwe.c
+  decode.c
+  crc.c
+  bandwidth_estimator.c
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\modules\audio_coding\codecs\isac\main\source\bandwidth_estimator.c(769): warning C4244: “函数”: 从“const float”转换到“int32_t”，可能丢失数据
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\modules\audio_coding\codecs\isac\main\source\bandwidth_estimator.c(775): warning C4244: “函数”: 从“const float”转换到“int32_t”，可能丢失数据
+  arith_routines_logist.c
+  arith_routines_hist.c
+  arith_routines.c
+  正在生成代码...
+  webrtc_codec_isac.vcxproj -> E:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\vs140\x64\Debug\webrtc_codec_isac.lib

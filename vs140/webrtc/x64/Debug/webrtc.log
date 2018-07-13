@@ -1,0 +1,22 @@
+﻿  rtcstats_objects.cc
+  rtcstatsreport.cc
+  rtcstats.cc
+  no_op_function.cc
+  rtc_event_log_helper_thread.cc
+  rtc_event_log.cc
+e:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\webrtc\system_wrappers\include\ntp_time.h(43): warning C4244: “return”: 从“uint64_t”转换到“uint32_t”，可能丢失数据
+  config.cc
+  common_types.cc
+  video_frame.cc
+  i420_buffer.cc
+  statstypes.cc
+  mediatypes.cc
+  mediastreaminterface.cc
+  mediaconstraintsinterface.cc
+  fakemetricsobserver.cc
+  builtin_audio_decoder_factory.cc
+  audio_format.cc
+  audio_decoder.cc
+  正在生成代码...
+rtc_event_log_helper_thread.obj : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+  webrtc.vcxproj -> E:\project\webrtc\webrtc\git\webrtc_vs2015-master\webrtc_vs2015-master\vs140\x64\Debug\webrtc.lib

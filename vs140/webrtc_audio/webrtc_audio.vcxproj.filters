@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="utility">
+      <UniqueIdentifier>{4cfbbf23-e939-4d3e-8de9-4319218bc1d1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\webrtc\audio\audio_receive_stream.h" />
+    <ClInclude Include="..\..\webrtc\audio\audio_send_stream.h" />
+    <ClInclude Include="..\..\webrtc\audio\audio_state.h" />
+    <ClInclude Include="..\..\webrtc\audio\audio_transport_proxy.h" />
+    <ClInclude Include="..\..\webrtc\audio\conversion.h" />
+    <ClInclude Include="..\..\webrtc\audio\scoped_voe_interface.h" />
+    <ClInclude Include="..\..\webrtc\audio\utility\audio_frame_operations.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\webrtc\audio\audio_receive_stream.cc" />
+    <ClCompile Include="..\..\webrtc\audio\audio_send_stream.cc" />
+    <ClCompile Include="..\..\webrtc\audio\audio_state.cc" />
+    <ClCompile Include="..\..\webrtc\audio\audio_transport_proxy.cc" />
+    <ClCompile Include="..\..\webrtc\audio\utility\audio_frame_operations.cc">
+      <Filter>utility</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

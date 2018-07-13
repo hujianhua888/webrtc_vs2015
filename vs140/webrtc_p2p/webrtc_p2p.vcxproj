@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B944F7E4-8BB2-4087-BD4D-A234A0C22560}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>webrtc_p2p</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\webrtc.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\webrtc.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\webrtc.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\webrtc.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\webrtc\p2p\base\asyncstuntcpsocket.cc" />
+    <ClCompile Include="..\..\webrtc\p2p\base\basicpacketsocketfactory.cc" />
+    <ClCompile Include="..\..\webrtc\p2p\base\dtlstransportchannel.cc" />
+    <ClCompile Include="..\..\webrtc\p2p\base\jseptransport.cc" />
+    <ClCompile Include="..\..\webrtc\p2p\base\p2pconstants.cc" />
+    <ClCompile Include="..\..\webrtc\p2p\base\p2ptransportchannel.cc" />
+    <ClCompile Include="..\..\webrtc\p2p\base\port.cc" />
+    <ClCompile Include="..\..\webrtc\p2p\base\portallocator.cc" />
+    <ClCompile Include="..\..\webrtc\p2p\base\relayport.cc" />
+    <ClCompile Include="..\..\webrtc\p2p\base\relayserver.cc" />
+    <ClCompile Include="..\..\webrtc\p2p\base\session.cc" />
+    <ClCompile Include="..\..\webrtc\p2p\base\sessiondescription.cc" />
+    <ClCompile Include="..\..\webrtc\p2p\base\stun.cc" />
+    <ClCompile Include="..\..\webrtc\p2p\base\stunport.cc" />
+    <ClCompile Include="..\..\webrtc\p2p\base\stunrequest.cc" />
+    <ClCompile Include="..\..\webrtc\p2p\base\stunserver.cc" />
+    <ClCompile Include="..\..\webrtc\p2p\base\tcpport.cc" />
+    <ClCompile Include="..\..\webrtc\p2p\base\transportcontroller.cc" />
+    <ClCompile Include="..\..\webrtc\p2p\base\transportdescription.cc" />
+    <ClCompile Include="..\..\webrtc\p2p\base\transportdescriptionfactory.cc" />
+    <ClCompile Include="..\..\webrtc\p2p\base\turnport.cc" />
+    <ClCompile Include="..\..\webrtc\p2p\base\turnserver.cc" />
+    <ClCompile Include="..\..\webrtc\p2p\base\udptransport.cc" />
+    <ClCompile Include="..\..\webrtc\p2p\client\basicportallocator.cc" />
+    <ClCompile Include="..\..\webrtc\p2p\client\socketmonitor.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\webrtc\p2p\base\asyncstuntcpsocket.h" />
+    <ClInclude Include="..\..\webrtc\p2p\base\basicpacketsocketfactory.h" />
+    <ClInclude Include="..\..\webrtc\p2p\base\candidate.h" />
+    <ClInclude Include="..\..\webrtc\p2p\base\candidatepairinterface.h" />
+    <ClInclude Include="..\..\webrtc\p2p\base\common.h" />
+    <ClInclude Include="..\..\webrtc\p2p\base\dtlstransportchannel.h" />
+    <ClInclude Include="..\..\webrtc\p2p\base\dtlstransportinternal.h" />
+    <ClInclude Include="..\..\webrtc\p2p\base\icetransportinternal.h" />
+    <ClInclude Include="..\..\webrtc\p2p\base\jseptransport.h" />
+    <ClInclude Include="..\..\webrtc\p2p\base\p2pconstants.h" />
+    <ClInclude Include="..\..\webrtc\p2p\base\p2ptransportchannel.h" />
+    <ClInclude Include="..\..\webrtc\p2p\base\packetsocketfactory.h" />
+    <ClInclude Include="..\..\webrtc\p2p\base\packettransportinterface.h" />
+    <ClInclude Include="..\..\webrtc\p2p\base\packettransportinternal.h" />
+    <ClInclude Include="..\..\webrtc\p2p\base\port.h" />
+    <ClInclude Include="..\..\webrtc\p2p\base\portallocator.h" />
+    <ClInclude Include="..\..\webrtc\p2p\base\portinterface.h" />
+    <ClInclude Include="..\..\webrtc\p2p\base\relayport.h" />
+    <ClInclude Include="..\..\webrtc\p2p\base\relayserver.h" />
+    <ClInclude Include="..\..\webrtc\p2p\base\session.h" />
+    <ClInclude Include="..\..\webrtc\p2p\base\sessiondescription.h" />
+    <ClInclude Include="..\..\webrtc\p2p\base\stun.h" />
+    <ClInclude Include="..\..\webrtc\p2p\base\stunport.h" />
+    <ClInclude Include="..\..\webrtc\p2p\base\stunrequest.h" />
+    <ClInclude Include="..\..\webrtc\p2p\base\stunserver.h" />
+    <ClInclude Include="..\..\webrtc\p2p\base\tcpport.h" />
+    <ClInclude Include="..\..\webrtc\p2p\base\transport.h" />
+    <ClInclude Include="..\..\webrtc\p2p\base\transportchannelimpl.h" />
+    <ClInclude Include="..\..\webrtc\p2p\base\transportcontroller.h" />
+    <ClInclude Include="..\..\webrtc\p2p\base\transportdescription.h" />
+    <ClInclude Include="..\..\webrtc\p2p\base\transportdescriptionfactory.h" />
+    <ClInclude Include="..\..\webrtc\p2p\base\transportinfo.h" />
+    <ClInclude Include="..\..\webrtc\p2p\base\turnport.h" />
+    <ClInclude Include="..\..\webrtc\p2p\base\turnserver.h" />
+    <ClInclude Include="..\..\webrtc\p2p\base\udpport.h" />
+    <ClInclude Include="..\..\webrtc\p2p\base\udptransport.h" />
+    <ClInclude Include="..\..\webrtc\p2p\client\basicportallocator.h" />
+    <ClInclude Include="..\..\webrtc\p2p\client\socketmonitor.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

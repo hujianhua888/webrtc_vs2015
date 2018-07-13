@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D7F98350-356B-4FDC-92EF-95F793CF2AD0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>webrtc_voice_engine</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\webrtc.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\webrtc.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\webrtc.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\webrtc.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\webrtc\voice_engine\channel.cc" />
+    <ClCompile Include="..\..\webrtc\voice_engine\channel_manager.cc" />
+    <ClCompile Include="..\..\webrtc\voice_engine\channel_proxy.cc" />
+    <ClCompile Include="..\..\webrtc\voice_engine\coder.cc" />
+    <ClCompile Include="..\..\webrtc\voice_engine\file_player.cc" />
+    <ClCompile Include="..\..\webrtc\voice_engine\file_recorder.cc" />
+    <ClCompile Include="..\..\webrtc\voice_engine\level_indicator.cc" />
+    <ClCompile Include="..\..\webrtc\voice_engine\monitor_module.cc" />
+    <ClCompile Include="..\..\webrtc\voice_engine\output_mixer.cc" />
+    <ClCompile Include="..\..\webrtc\voice_engine\shared_data.cc" />
+    <ClCompile Include="..\..\webrtc\voice_engine\statistics.cc" />
+    <ClCompile Include="..\..\webrtc\voice_engine\transmit_mixer.cc" />
+    <ClCompile Include="..\..\webrtc\voice_engine\transport_feedback_packet_loss_tracker.cc" />
+    <ClCompile Include="..\..\webrtc\voice_engine\utility.cc" />
+    <ClCompile Include="..\..\webrtc\voice_engine\voe_audio_processing_impl.cc" />
+    <ClCompile Include="..\..\webrtc\voice_engine\voe_base_impl.cc" />
+    <ClCompile Include="..\..\webrtc\voice_engine\voe_codec_impl.cc" />
+    <ClCompile Include="..\..\webrtc\voice_engine\voe_file_impl.cc" />
+    <ClCompile Include="..\..\webrtc\voice_engine\voe_hardware_impl.cc" />
+    <ClCompile Include="..\..\webrtc\voice_engine\voe_neteq_stats_impl.cc" />
+    <ClCompile Include="..\..\webrtc\voice_engine\voe_network_impl.cc" />
+    <ClCompile Include="..\..\webrtc\voice_engine\voe_rtp_rtcp_impl.cc" />
+    <ClCompile Include="..\..\webrtc\voice_engine\voe_volume_control_impl.cc" />
+    <ClCompile Include="..\..\webrtc\voice_engine\voice_engine_impl.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\webrtc\voice_engine\channel.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\channel_manager.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\channel_proxy.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\coder.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\file_player.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\file_recorder.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\level_indicator.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\monitor_module.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\output_mixer.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\shared_data.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\statistics.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\transmit_mixer.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\transport_feedback_packet_loss_tracker.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\utility.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\voe_audio_processing_impl.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\voe_base_impl.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\voe_codec_impl.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\voe_file_impl.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\voe_hardware_impl.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\voe_neteq_stats_impl.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\voe_network_impl.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\voe_rtp_rtcp_impl.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\voe_volume_control_impl.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\voice_engine_defines.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\voice_engine_fixture.h" />
+    <ClInclude Include="..\..\webrtc\voice_engine\voice_engine_impl.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
