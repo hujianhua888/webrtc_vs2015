@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\webrtc\pc\audiomonitor.cc" />
+    <ClCompile Include="..\..\webrtc\pc\audiotrack.cc" />
+    <ClCompile Include="..\..\webrtc\pc\bundlefilter.cc" />
+    <ClCompile Include="..\..\webrtc\pc\channel.cc" />
+    <ClCompile Include="..\..\webrtc\pc\channelmanager.cc" />
+    <ClCompile Include="..\..\webrtc\pc\currentspeakermonitor.cc" />
+    <ClCompile Include="..\..\webrtc\pc\datachannel.cc" />
+    <ClCompile Include="..\..\webrtc\pc\dtmfsender.cc" />
+    <ClCompile Include="..\..\webrtc\pc\externalhmac.cc" />
+    <ClCompile Include="..\..\webrtc\pc\jsepicecandidate.cc" />
+    <ClCompile Include="..\..\webrtc\pc\jsepsessiondescription.cc" />
+    <ClCompile Include="..\..\webrtc\pc\localaudiosource.cc" />
+    <ClCompile Include="..\..\webrtc\pc\mediacontroller.cc" />
+    <ClCompile Include="..\..\webrtc\pc\mediamonitor.cc" />
+    <ClCompile Include="..\..\webrtc\pc\mediasession.cc" />
+    <ClCompile Include="..\..\webrtc\pc\mediastream.cc" />
+    <ClCompile Include="..\..\webrtc\pc\mediastreamobserver.cc" />
+    <ClCompile Include="..\..\webrtc\pc\ortcfactory.cc" />
+    <ClCompile Include="..\..\webrtc\pc\peerconnection.cc" />
+    <ClCompile Include="..\..\webrtc\pc\peerconnectionfactory.cc" />
+    <ClCompile Include="..\..\webrtc\pc\remoteaudiosource.cc" />
+    <ClCompile Include="..\..\webrtc\pc\rtcpmuxfilter.cc" />
+    <ClCompile Include="..\..\webrtc\pc\rtcstatscollector.cc" />
+    <ClCompile Include="..\..\webrtc\pc\rtpreceiver.cc" />
+    <ClCompile Include="..\..\webrtc\pc\rtpsender.cc" />
+    <ClCompile Include="..\..\webrtc\pc\sctputils.cc" />
+    <ClCompile Include="..\..\webrtc\pc\srtpfilter.cc" />
+    <ClCompile Include="..\..\webrtc\pc\statscollector.cc" />
+    <ClCompile Include="..\..\webrtc\pc\trackmediainfomap.cc" />
+    <ClCompile Include="..\..\webrtc\pc\videocapturertracksource.cc" />
+    <ClCompile Include="..\..\webrtc\pc\videotrack.cc" />
+    <ClCompile Include="..\..\webrtc\pc\videotracksource.cc" />
+    <ClCompile Include="..\..\webrtc\pc\webrtcsdp.cc" />
+    <ClCompile Include="..\..\webrtc\pc\webrtcsession.cc" />
+    <ClCompile Include="..\..\webrtc\pc\webrtcsessiondescriptionfactory.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\webrtc\pc\audiomonitor.h" />
+    <ClInclude Include="..\..\webrtc\pc\audiotrack.h" />
+    <ClInclude Include="..\..\webrtc\pc\bundlefilter.h" />
+    <ClInclude Include="..\..\webrtc\pc\channel.h" />
+    <ClInclude Include="..\..\webrtc\pc\channelmanager.h" />
+    <ClInclude Include="..\..\webrtc\pc\currentspeakermonitor.h" />
+    <ClInclude Include="..\..\webrtc\pc\datachannel.h" />
+    <ClInclude Include="..\..\webrtc\pc\dtmfsender.h" />
+    <ClInclude Include="..\..\webrtc\pc\externalhmac.h" />
+    <ClInclude Include="..\..\webrtc\pc\localaudiosource.h" />
+    <ClInclude Include="..\..\webrtc\pc\mediacontroller.h" />
+    <ClInclude Include="..\..\webrtc\pc\mediamonitor.h" />
+    <ClInclude Include="..\..\webrtc\pc\mediasession.h" />
+    <ClInclude Include="..\..\webrtc\pc\mediastream.h" />
+    <ClInclude Include="..\..\webrtc\pc\mediastreamobserver.h" />
+    <ClInclude Include="..\..\webrtc\pc\mediastreamtrack.h" />
+    <ClInclude Include="..\..\webrtc\pc\ortcfactory.h" />
+    <ClInclude Include="..\..\webrtc\pc\peerconnection.h" />
+    <ClInclude Include="..\..\webrtc\pc\peerconnectionfactory.h" />
+    <ClInclude Include="..\..\webrtc\pc\remoteaudiosource.h" />
+    <ClInclude Include="..\..\webrtc\pc\rtcpmuxfilter.h" />
+    <ClInclude Include="..\..\webrtc\pc\rtcstatscollector.h" />
+    <ClInclude Include="..\..\webrtc\pc\rtpreceiver.h" />
+    <ClInclude Include="..\..\webrtc\pc\rtpsender.h" />
+    <ClInclude Include="..\..\webrtc\pc\sctputils.h" />
+    <ClInclude Include="..\..\webrtc\pc\srtpfilter.h" />
+    <ClInclude Include="..\..\webrtc\pc\statscollector.h" />
+    <ClInclude Include="..\..\webrtc\pc\streamcollection.h" />
+    <ClInclude Include="..\..\webrtc\pc\trackmediainfomap.h" />
+    <ClInclude Include="..\..\webrtc\pc\videocapturertracksource.h" />
+    <ClInclude Include="..\..\webrtc\pc\videotrack.h" />
+    <ClInclude Include="..\..\webrtc\pc\videotracksource.h" />
+    <ClInclude Include="..\..\webrtc\pc\voicechannel.h" />
+    <ClInclude Include="..\..\webrtc\pc\webrtcsdp.h" />
+    <ClInclude Include="..\..\webrtc\pc\webrtcsession.h" />
+    <ClInclude Include="..\..\webrtc\pc\webrtcsessiondescriptionfactory.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{31504735-2D20-4258-8FD0-9D034EE6C172}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>webrtc_pc</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\webrtc.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\webrtc.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\webrtc.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\webrtc.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(webrtc_root)\third_party\libsrtp\crypto\include;$(webrtc_root)\third_party\libsrtp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\third_party\libsrtp\include;..\..\third_party\libsrtp\crypto\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(webrtc_root)\third_party\libsrtp\crypto\include;$(webrtc_root)\third_party\libsrtp\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
